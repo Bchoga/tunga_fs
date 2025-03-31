@@ -1,0 +1,28 @@
+html {
+    font-family: sans-serif;
+    font-size: 10px;
+  }
+  
+.cool_box {
+    width: 20rem;
+    height: 13.3rem;
+    text-align: center;
+    line-height: 13.3rem;
+    margin: auto;
+    font-size: 1.8rem; /* since the root(html) element font size is 10px, 18px to rems is 18px/10px = 1.8rems */
+    background: linear-gradient(to bottom right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0.2) 100%), red;
+    color: white;
+    text-shadow: 4px 4px 4px black;
+    border-radius: 5%;
+    border: 1px darkred solid;
+    box-shadow:
+        4px 4px 10px rgba(0,0,0,0.3),
+        inset 4px 4px 6px rgba(255,255,255,0.3),
+        inset -4px -4px 6px rgba(0,0,0,0.3);
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
