@@ -1,0 +1,28 @@
+body {
+    font: 1.2em / 1.5 sans-serif;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  .container {
+    height: 400px;
+    padding: 0.5em;
+    border: 5px solid #ccc;
+    overflow: auto;
+  }
+  
+  .sidebar {
+    color: white;
+    background-color: #663398;
+    padding: 1em;
+    float: left;/*should i use this or define something like left:5px; top: 5px;*/
+    width: 150px;
+    position: fixed;
+  }
+  
+  .content {
+    padding: 1em;
+    margin-left: 160px;
+  }
+  

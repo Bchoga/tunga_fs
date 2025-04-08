@@ -1,0 +1,31 @@
+body {
+    font: 1.2em / 1.5 sans-serif;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  .container {
+    padding: 0.5em;
+    border: 5px solid #ccc;
+  }
+  
+  .target {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    background-color: #663398;
+    padding: 1em;
+    color: white;
+    position: absolute;
+    top: 5px;
+    right:5px;
+  }
+  /*my code*/
+  .target {
+    position: absolute;
+    top: 12px; /*this was to make it match the pic on the task, otherwise if reset css was applied, 5px would have worked...maybe*/
+    right:12px;
+    /*to make the text apear on top of the box, set the z-index to a lower index*/
+    /*z-index: -1;*/
+  }
